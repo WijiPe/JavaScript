@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="row1">
+            <h1>DojoWeather</h1>
+            <div class="s-row1">
+                <h3 onclick="displayAlert('Loading weather report')">Burbank</h3>
+                <h3>Chicaco</h3>
+                <h3>Dallas</h3>
+            </div>
+        </div>
+        <div class="row2">
+            <h2>San Jose</h2>
+            <div class="s-row2">
+                <p>show temperature in</p>
+                <select onchange="switchTemp(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>        
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="box1">
+            <div class="container">
+                <h2>Today</h2>
+                <img src="some_rain.png" alt="Rain Picture">
+                <p>some rain</p>
+                <div class="s-row3">
+                    <h4 class="Red" >°<span id="temperature1">24</span></h4>
+                    <h4 class="Blue">°<span id="temperature2">18</span></h4>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="Sun Picture">
+                <p>some sun</p>
+                <div class="s-row3">
+                    <h4 class="Red">°<span id="temperature1">27</span></h4>
+                    <h4 class="Blue">°<span id="temperature2">19</span></h4>
+                </div>
+            </div>        
+            <div class="container">
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="Cloud Picture">
+                <p>some clouds</p>
+                <div class="s-row3">
+                    <h4 class="Red">°<span id="temperature1">21</span></h4>
+                    <h4 class="Blue">°<span id="temperature2">16</span></h4>
+                </div>   
+            </div>        
+            <div class="container">
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt="Sun Picture">
+                <p>some sun</p>
+                <div class="s-row3">
+                    <h4 class="Red">°<span id="temperature1">26</span></h4>
+                    <h4 class="Blue">°<span id="temperature2">21</span></h4>
+                </div>   
+            </div>
+        </div>
+        <div id="Alert" class="container2">
+            <div id="message">
+                <img src="cookie.png" alt="Cookie Sign">
+                <div class="text">
+                    <p>Stop! Cookie time</p>
+                    <h5>We use cookies (sadly not the editble ones) to personalize content and ads, to provide social media features and to analyse our traffic.<u><span>Read more...</span></u></h5>
+                </div>
+                <button onclick="setActive(this)">I Accept</button>
+            </div>
+        </div> 
+    </main>
+    <script src="script.js"></script>        
+</body>
+</html>

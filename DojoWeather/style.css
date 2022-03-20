@@ -1,0 +1,153 @@
+.row1{
+    background-color: rgb(141, 185, 243);
+    margin:0px auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: cursive;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.s-row1{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    cursor: context-menu;
+}
+
+.row2{
+    margin:0px auto;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: cursive;
+    border-bottom: 2px solid black;
+}
+
+h2{
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.s-row2{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+select{
+    height: 40px;
+    margin-top: 15px;
+}
+
+main{
+    height: 550px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.box1{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.container{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:30px 20px 20px 20px;
+    background-color: rgb(238, 222, 223);
+    align-items: center;
+    font-family: cursive;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.s-row3{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: cursive;
+}
+
+.container2{
+    width: 800px;
+    height: 120px;
+    display: flex;
+    font-family: cursive;
+    border: 2px solid black;
+    position: fixed;
+    background-color: white;
+}
+
+button{
+    background-color: rgb(134, 197, 240);
+    width: 150px;
+    height: 30px;
+    margin: 45px 20px 10px 20px;
+    box-shadow: 2px 2px 2px black;
+    font-family: cursive;
+    font-weight:bolder;
+}
+
+#message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+}
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.Red{
+    color:rgb(233, 80, 80);
+}
+
+.Blue{
+    color:rgb(45, 179, 231);
+}
